@@ -35,6 +35,15 @@ A simple React Native application that displays a map with pins, providing detai
   npx react-native run-ios
   ```
 
+- In case of IOS run issue
+
+   ```sh
+   cd ios
+   rm Podfile.lock
+   pod deintegrate && pod install
+   run react-native run-ios
+   ```
+
 ## 🗺️ Usage
 
 - **Explore**: Navigate the map to discover pins.
